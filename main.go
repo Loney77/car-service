@@ -22,6 +22,8 @@ import (
 	"example.com/car-service/transport"
 )
 
+const ciUnusedExample = 1
+
 func main() {
 	httpAddr := flag.String("http.addr", ":8080", "HTTP listen address")
 	grpcAddr := flag.String("grpc.addr", ":9090", "gRPC listen address")
